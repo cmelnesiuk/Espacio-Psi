@@ -1,0 +1,220 @@
+.navbar .nav-item .nav-link{
+	color: #521a75;
+	font-family: "Raleway", sans-serif;
+	font-size: 15px;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+	
+.navbar .nav-item .nav-link:hover{
+	color: #b88dba;
+	text-decoration: none;
+}
+
+.logo{
+	width:60%;
+}
+main{
+	height: auto;
+}
+
+form{
+  width: 450px;
+  margin: auto;
+  background-color: rgba(0,0,0,0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px;
+}
+.subtittle{
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  font-family: "Barlow Condensed", Sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.myform{
+  color: white;
+}
+.col-form-label{
+  color: white;
+}
+
+#parrafo1{
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  font-family: "Barlow Condensed", Sans-serif;
+  font-size: 20px;
+  
+}
+.contact_tittle{
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  font-size: 25px;
+  font-family: "Barlow Condensed", Sans-serif;
+  text-transform: uppercase;
+}
+
+input, textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding:7px;
+  box-sizing: border-box;
+  border: none;
+  font-size: 17px;
+}
+
+textarea{
+  min-height: 80px;
+  max-height: 200px;
+  max-width: 100%;
+}
+
+#boton1{
+  background: rgb(82, 26, 117);
+  color:#fff;
+  padding: 15px;
+  width: 410px;
+}
+
+body{
+	background-image: url(../images/flores2.jpg);
+	background-size: cover;
+	margin:0;
+	font-family: Raleway;
+	font-size: 1rem;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+
+.page-section{
+  background-color: rgb(82, 26, 117, 0.8);
+  margin-top: 0px;
+}
+
+.cta2{
+background-color: rgb(82, 26, 117, 0.8);
+}
+
+.cta-inner2{
+  position: relative;
+  padding: 1rem;
+  background-color: rgba(255,255,255,.85);
+}
+.cta2 .cta-inner2{
+    border: .25rem solid rgba(184, 141, 186, 0.7);
+    top: -.5rem;
+    bottom: -.5rem;
+    left: -.5rem;
+    right: -.5rem;
+    border-radius: 10px;
+}
+
+.tittle-alq{
+  border-bottom: solid 2px #521a75;
+  display: inline-block; 
+  font-family: Raleway;
+   letter-spacing: 1.3px;
+}
+.fab{
+	color: black;
+}
+.fai{
+	color: black;
+}
+
+.fab:hover{
+	color: black;	
+	text-decoration: none;
+}
+.fai:hover{
+	color: black;
+	text-decoration: none;
+}
+
+footer{
+  text-align: center; 
+}
+
+.estilo-footer{
+  color: black;
+  text-decoration: none;
+  font-size: 10px;
+  font-family: "Barlow Condensed", Sans-serif;
+}
+
+.estilo-footer:hover{
+  color: black;
+  text-decoration: none;
+}
+
+@media(max-width:575.98px) {
+
+.navbar-brand {
+     margin-right: 0rem;
+  
+}
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    float: right;
+    text-align: right;
+	}
+	
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,.1);
+    margin-left: 270px;
+}
+.logo{
+  width:45%;
+  float: right;
+}
+
+.tittle-alq {
+    border-bottom: none;
+    display: inline-block;
+    font-family: Raleway;
+    letter-spacing: 1.3px;
+    font-size: 20px;
+  }
+
+.cta2 .cta-inner2{
+    border: .25rem solid rgba(184, 141, 186, 0.7);
+    top: -.5rem;
+    bottom: -.5rem;
+    bottom: 0rem;
+    left: 0rem;
+    border-radius: 10px;
+}
+
+form{
+  width: 300px;
+  margin: auto;
+  background-color: rgba(0,0,0,0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px;
+}
+
+#boton1 {
+    background: rgb(82, 26, 117);
+    color: #fff;
+    padding: 15px;
+    width: 260px;
+}
+
+
+
